@@ -3,7 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 st.title('Streamlitサンプル')
 st.caption('Pythonプログラミング VTuber サプーさんのYoutube見てつくったものです。一部だけ。')
-
+st.markdown('##### 詳細は')
+link = '[イチゲブログ](https://kikuichige.com/17180/)'
+st.markdown(link, unsafe_allow_html=True)
 col1,col2 = st.columns(2)
 # name=st.text_input('名前')
 # print(name)
